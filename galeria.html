@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <title>GALÉRIA</title>
+  <link rel="icon" type="image/x-icon" href="Obrázky/logo1.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, height=device-height initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+	.gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 30px;
+      padding: 10px;
+	}
+    .img-container {
+      padding: 30px 0 0px 0;
+      display: flex;
+      justify-content: center;
+    }
+	.img-container img {
+      width: 100%;
+      height: auto;
+      transition: transform 0.5s ease;
+	  border-radius: 10px;
+	}
+	.img-container:hover img {
+      transform: scale(1.1);
+	}
+    .gallery img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<header class="header">
+  <img class="logo" src="Obrázky/logo1.png" alt="Apple Logo"
+       style="width: 40px !important;
+              height: 50px !important;">
+  <ul class="nav">
+    <li class="nav-item">
+      <a href="svadby.html">Svadby</a>
+    </li>
+    <li class="nav-item">
+      <a href="oslavy.html">Oslavy</a>
+    </li>
+    <li class="nav-item">
+      <a href="firemne_vecierky.html">Firemné Večierky</a>
+    </li>
+    <li class="nav-item">
+      <a class="active" href="rozlucky.html">Rozlúčka so slobodou</a>
+    </li>
+    <li class="nav-item">
+      <a href="stuzkove.html">Stužkové</a>
+    </li>
+  </ul>
+</header>
+
+<ul class="nav-body">
+  <li class="nav-item-body">
+    <a href="rozlucky.html">Domov</a>
+  </li>
+  <li class="nav-item-body" >
+    <a href="#">Služby</a>
+    <div class="scrollable-content-body">
+      <ul class="sub-nav-body">
+        <li><a href="limuziny.html">Limuzíny</a></li>
+        <li><a href="kasina.html">Kasína</a></li>
+        <li><a href="kluby.html">Kluby</a></li>
+        <li><a href="stripterky.html">Striptérky</a></li>
+		<li><a href="stripteri.html">Striptéri</a></li>
+        <li><a href="masaze.html">Masáže</a></li>
+      </ul>
+    </div>
+  </li>
+  <li class="nav-item-body">
+    <a class="active" href="galeria.html">Galéria</a>
+  </li>
+    <li class="nav-item-body">
+    <a href="kontakt.html">Kontakt</a>
+  </li>
+</ul>
+</header>
+
+<body>
+<center><h1 class="nav-item-body">Fotky</h1>
+
+    <div class="gallery">
+	  <div class="img-container">
+        <img src="Obrázky/limuzina.jpg">
+      </div>
+      <div class="img-container">
+		<img src="Obrázky/kasino.jpg">
+      </div>
+	  <div class="img-container">
+        <img src="Obrázky/klub.jpg">
+      </div>
+	  <div class="img-container">
+        <img src="Obrázky/limuzina2.jpg">
+	  </div>
+	  <div class="img-container">
+        <img src="Obrázky/kasino2.jpg">
+	  </div>
+	  <div class="img-container">
+        <img src="Obrázky/klub2.jpg">
+	  </div>
+	  <div class="img-container">
+        <img src="Obrázky/limuzina3.jpg">
+	  </div>
+	  <div class="img-container">
+        <img src="Obrázky/kasino3.jpg">
+	  </div>
+	  <div class="img-container">
+        <img src="Obrázky/klub3.jpg">
+	  </div>
+	  <div class="img-container">
+        <img src="Obrázky/stripterka.jpg">
+	  </div>
+	  <div class="img-container">
+        <img src="Obrázky/stripter.jpg">
+	  </div>
+	  <div class="img-container">
+        <img src="Obrázky/masaz.jpeg">
+	  </div>
+	  <div class="img-container">
+        <img src="Obrázky/stripterka2.jpg">
+	  </div>
+	  <div class="img-container">
+        <img src="Obrázky/stripter2.jpg">
+	  </div>
+	  <div class="img-container">
+        <img src="Obrázky/masaz2.jpg">
+	  </div>
+    </div>
+
+<footer class="footer">
+  <div class="footer-section">
+    <p>info.soireespecialistheaven@gmail.com</p>
+    <p style="color: pink">&nbsp;&nbsp;+421 900 000 000</p>
+  </div>
+  <div class="footer-section">
+    <a href="faq.html">FAQ</a>
+    <a href="gdpr.html">GDPR</a>
+  </div>
+  <div class="footer-section">
+    <p>Soirée Specialist Heaven ©</p>
+  </div>
+
+</body>
+</html>

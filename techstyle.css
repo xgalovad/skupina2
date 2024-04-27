@@ -1,0 +1,46 @@
+
+.services-section {
+    padding: 20px;
+    background-color: #f8f8f8;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.services-section h2 {
+    margin-bottom: 20px;
+}
+
+.gallery-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.gallery-item img {
+    width: 250px;
+    height: auto;
+    margin-right: 20px;
+}
+
+
+.gallery-item-text {
+    text-align: left;
+}
+
+.more-button {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 30px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.more-button:hover {
+    background-color: #aa0457;
+}

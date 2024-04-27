@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <title>KONTAKT</title>
+  <link rel="icon" type="image/x-icon" href="Obrázky/logo1.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, height=device-height initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  
+  <style>
+	.container {
+	  max-width: 400px;
+	  margin: 0 auto;
+	  padding: 20px;
+	  border: 1px solid #ccc;
+	  border-radius: 5px;
+	}
+
+	label {
+	  display: block;
+	  margin-bottom: 5px;
+	}
+
+	input[type="text"],
+	input[type="email"],
+	textarea,
+	select {
+	  width: 100%;
+	  padding: 8px;
+	  margin-bottom: 10px;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	}
+
+	button {
+	  background-color: #aa0457;
+	  color: white;
+	  padding: 10px 20px;
+	  border: none;
+	  border-radius: 4px;
+	  cursor: pointer;
+	}
+
+	button:hover {
+	  background-color: #A10051;
+	}
+  </style>
+
+<header class="header">
+  <img class="logo" src="Obrázky/logo1.png" alt="Apple Logo"
+       style="width: 40px !important;
+              height: 50px !important;">
+  <ul class="nav">
+    <li class="nav-item">
+      <a href="svadby.html">Svadby</a>
+    </li>
+    <li class="nav-item">
+      <a href="oslavy.html">Oslavy</a>
+    </li>
+    <li class="nav-item">
+      <a href="firemne_vecierky.html">Firemné Večierky</a>
+    </li>
+    <li class="nav-item">
+      <a href="rozlucky.html">Rozlúčka so slobodou</a>
+    </li>
+    <li class="nav-item">
+      <a href="stuzkove.html">Stužkové</a>
+    </li>
+  </ul>
+</header>
+
+</header>
+</head>
+<body>
+
+<center><h1 class="nav-item-body">Kontaktný formulár</h1></center>
+<div class="container">
+  <form id="contactForm" onsubmit="return validateForm()">
+    <label for="name">Meno:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="surname">Priezvisko:</label>
+    <input type="text" id="surname" name="surname" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="gender">Pohlavie:</label>
+    <select id="gender" name="gender" required>
+      <option value="">Vyberte si</option>
+      <option value="male">Muž</option>
+      <option value="female">Žena</option>
+      <option value="other">Neželám uviesť</option>
+    </select>
+
+    <label for="message">Správa:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <button type="submit">Odoslať</button>
+  </form>
+</div>
+
+<script src="script.js"></script>
+
+<footer class="footer">
+  <div class="footer-section">
+    <p>info.soireespecialistheaven@gmail.com</p>
+    <p style="color: pink">&nbsp;&nbsp;+421 900 000 000</p>
+  </div>
+  <div class="footer-section">
+    <a href="faqOslavy.html">FAQ</a>
+    <a href="gdpr.html">GDPR</a>
+  </div>
+  <div class="footer-section">
+    <p>Soirée Specialist Heaven ©</p>
+  </div>
+
+</body>
+</html>
