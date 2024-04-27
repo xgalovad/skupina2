@@ -12,8 +12,6 @@ body {
     padding: 0;
 }
 
-/* hlavička */
-
 .header {
     position: fixed;
     top: 0;
@@ -29,12 +27,10 @@ body {
     z-index: 100;
 }
 
-/*LOGO*/
 .logo {
     height: 30px;
     margin-left: 15px;
 }
-/*LOGO*/
 
 .nav {
     display: flex;
